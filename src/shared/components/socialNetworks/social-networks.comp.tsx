@@ -20,7 +20,7 @@ const CompSocialNetworks =
 								key={
 									socialNetwork
 								}
-								src={'/social/'+socialNetwork}
+								src={'./social/'+socialNetwork}
 							/>
 						);
 					}

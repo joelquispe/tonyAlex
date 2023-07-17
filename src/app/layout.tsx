@@ -4,7 +4,6 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import CompFooter from "@/shared/components/footer/footer.comp";
-import CompScaleAnimation from "@/shared/components/animations/scale-motion.comp";
 
 const inter = Inter({
 	subsets: ["latin"],
@@ -36,7 +35,7 @@ export default function RootLayout({
           sizes="100vw"
           style={{ width: '100%', height: 'auto' }}
 					src={
-						"/images/singer-background.jpg"
+						"./images/singer-background.jpg"
 					}
 					alt=""
 				/>
