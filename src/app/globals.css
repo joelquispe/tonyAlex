@@ -25,3 +25,24 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.rhap_container{
+  background-color: black !important;
+}
+
+.rhap_time .rhap_current-time .rhap_time .rhap_total-time .rhap_progress-container{
+  background-color: white !important;
+  color: white !important;
+}
+
+.rhap_container svg{
+  color: white !important;
+}
+.rhap_container div{
+  color: white !important;
+}
+
+h1,h2,h3,h4,h5,h6,a,p{
+  @apply font-body;
+}
+
