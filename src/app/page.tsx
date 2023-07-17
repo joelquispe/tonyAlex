@@ -18,7 +18,7 @@ export default function Home() {
 					</h1>
 					<Image
 						alt="image"
-						src="./images/male.png"
+						src="./images/singer.jpg"
 						width={700}
 						height={700}
 					/>

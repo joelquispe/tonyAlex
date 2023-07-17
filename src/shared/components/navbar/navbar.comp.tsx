@@ -25,11 +25,11 @@ const CompNavbar = () => {
 			},
 			{
 				name: "Eventos",
-				path: "eventos",
+				path: "/eventos",
 			},
 			{
 				name: "Información",
-				path: "informacion",
+				path: "/informacion",
 			},
 		];
 	return (
