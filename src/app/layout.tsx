@@ -1,4 +1,3 @@
-"use client";
 import CompNavbar from "@/shared/components/navbar/navbar.comp";
 import "./globals.css";
 import type { Metadata } from "next";
@@ -43,9 +42,8 @@ export default function RootLayout({
 				/>
 				<CompNavbar></CompNavbar>
 				{children}
-				<CompScaleAnimation>
+				
 				<CompFooter></CompFooter>
-				</CompScaleAnimation>
 			</body>
 		</html>
 	);
