@@ -9,6 +9,8 @@ interface INavLink {
 }
 
 const CompNavbar = () => {
+	const domain = "https://joelquispe.github.io/tonyAlex/";
+	const devDomain = "http://localhost:3000/";
 	const pathname =
 		usePathname();
 	const navLinks: INavLink[] =
@@ -65,6 +67,7 @@ const CompNavbar = () => {
 								href={
 									link.path
 								}
+								as={domain}
 								className={classNames(
 									"border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6",
 									{
