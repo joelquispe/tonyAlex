@@ -17,7 +17,7 @@ const CompNavbar = () => {
 		[
 			{
 				name: "Inicio",
-				path: "/",
+				path: domain,
 			},
 			{
 				name: "Canciones",
@@ -25,11 +25,11 @@ const CompNavbar = () => {
 			},
 			{
 				name: "Eventos",
-				path: "/eventos",
+				path: "eventos",
 			},
 			{
 				name: "Información",
-				path: "/informacion",
+				path: "informacion",
 			},
 		];
 	return (
@@ -67,7 +67,7 @@ const CompNavbar = () => {
 								href={
 									link.path
 								}
-								as={domain}
+								
 								className={classNames(
 									"border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6",
 									{
