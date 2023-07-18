@@ -29,11 +29,14 @@ export default function RootLayout({
 				}
 			>
 				<Image
-					className="fixed  brightness-50 h-full -z-10"
+					className="fixed  brightness-50 h-full -z-10 h-100 object-center object-fill"
           width={0}
           height={0}
-          sizes="100vw"
-          style={{ width: '100%', height: 'auto' }}
+					objectFit="cover"
+					layout="fit"
+					quality={100}
+          sizes="100vm"
+          style={{ width: '100%', height: '100%' }}
 					src={
 						"./images/singer-background.jpg"
 					}
